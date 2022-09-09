@@ -1,0 +1,60 @@
+body {
+    height: 100vh;
+    background: url(Media/checkered..webp) no-repeat center center/cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* the area containing both timer and buttons together */
+.container{
+
+    width: 60%;
+    height: 250px;
+    background-color: rgb(135, 64, 17);
+    border-radius: 30px;
+    box-shadow: 0 0 3px;
+}
+
+/* onlythe timer region  */
+#timer{
+    color: aliceblue;
+    /* width: 100%; */
+    font-size: 72px;
+    text-align: center;
+    margin: 0px auto;
+    padding: 35px;
+}
+
+/* the enitre button region(including stsrt,stop,reset) */
+.buttons{
+    text-align: center;
+    /* margin-top: 40px; */
+}
+
+button{
+    margin: 0 5px;
+    border: none;
+}
+
+button i{
+    font-size: 2rem;
+    padding: 12px;
+    /* color: aliceblue; */
+    width: 50px;
+}
+
+/* start button  */
+#start{
+    background-color: rgb(20, 93, 20);
+}
+
+/* reset button  */
+#reset{
+    background-color: rgb(176, 117, 8);
+}
+
+/* stop button  */
+#stop{
+    background-color: rgb(170, 4, 4);
+}
